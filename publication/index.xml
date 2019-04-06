@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Selected Publications on Bo Wang</title>
-    <link>https://bowang87.github.io/publication/</link>
+    <link>/publication/</link>
     <description>Recent content in Selected Publications on Bo Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://bowang87.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Network Enhancement: a general method to denoise weighted biological networks.</title>
-      <link>https://bowang87.github.io/publication/ne/</link>
+      <link>/publication/ne/</link>
       <pubDate>Mon, 06 Aug 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://bowang87.github.io/publication/ne/</guid>
+      <guid>/publication/ne/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Single-Shot Object Detection with Enriched Semantics.</title>
-      <link>https://bowang87.github.io/publication/semanticenrich/</link>
+      <link>/publication/semanticenrich/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://bowang87.github.io/publication/semanticenrich/</guid>
+      <guid>/publication/semanticenrich/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vicus: Exploiting local structures to improve network-based analysis of biological data.</title>
-      <link>https://bowang87.github.io/publication/vicus/</link>
+      <link>/publication/vicus/</link>
       <pubDate>Thu, 12 Oct 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://bowang87.github.io/publication/vicus/</guid>
+      <guid>/publication/vicus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization and analysis of single-cell RNA-seq data by kernel-based similarity learning</title>
-      <link>https://bowang87.github.io/publication/single-cell/</link>
+      <link>/publication/single-cell/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://bowang87.github.io/publication/single-cell/</guid>
+      <guid>/publication/single-cell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Similarity network fusion for aggregating data types on a genomic scale</title>
-      <link>https://bowang87.github.io/publication/snf/</link>
+      <link>/publication/snf/</link>
       <pubDate>Thu, 16 Jan 2014 00:00:00 -0500</pubDate>
       
-      <guid>https://bowang87.github.io/publication/snf/</guid>
+      <guid>/publication/snf/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Bo Wang</title>
-    <link>https://bowang87.github.io/publication_types/1/</link>
+    <link>/publication_types/1/</link>
     <description>Recent content in 1 on Bo Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Tue, 19 Jun 2018 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://bowang87.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Single-Shot Object Detection with Enriched Semantics.</title>
-      <link>https://bowang87.github.io/publication/semanticenrich/</link>
+      <link>/publication/semanticenrich/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://bowang87.github.io/publication/semanticenrich/</guid>
+      <guid>/publication/semanticenrich/</guid>
       <description></description>
     </item>
     
