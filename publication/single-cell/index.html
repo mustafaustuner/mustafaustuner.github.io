@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.1.1">
   <meta name="generator" content="Hugo 0.51" />
-  <meta name="author" content="Bo Wang">
+  <meta name="author" content="Mustafa Üstüner">
 
   
   
@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="We present single-cell interpretation via multikernel learning (SIMLR), an analytic framework and software which learns a similarity measure from single-cell RNA-  seq data in order to perform dimension reduction, clustering and visualization. On seven published data sets, we benchmark SIMLR against state-of-the-art methods. We show that SIMLR is scalable and greatly enhances clustering performance while improving the visualization and interpretability of single-cell sequencing data.">
+  <meta name="description" content="The training data plays a pivotal role in the accuracy of a machine learning (ML) model in remote sensing. In this case, the set size and purity of the training data have a large influence in classification accuracy. The purpose of this experimental research is to investigate the impact of the different training set size on supervised machine learning classifiers for the agricultural land cover classification in remote sensing. The training set size for each class was incrementally increased at the following intervals: 1%, 5%, 10%, 20%, 30%, 40%, and 50% in our experiment. The remaining 50% of the full ground truth data was used for evaluating the model’s accuracy. The test site is situated in Bafra Plain, Samsun, Turkey and the agricultural land cover classification was held using multispectral Sentinel-2 imagery with four ML models, namely Support Vector Machines (SVM), Random Forest (RF), Light Gradient Boosting Machines (LightGBM), and Kernel Extreme Learning Machines (KELM). The experimental results demonstrated that the highest classification accuracy was achieved by LightGBM (89.93%), and followed by RF (86.49%), KELM (78.38%) and SVM (72.49%). The classification accuracies of tree-based methods (RF and LightGBM) increased as the training set size grew, however, kernel-based methods (KELM and SVM) exhibited unstable results as the size of the training dataset varied. Furthermore, our findings highlight that each machine learning model demonstrates different sensitivity to variations in training set size with respect to agricultural land cover classification.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/single-cell/">
@@ -92,8 +92,8 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Bo Wang">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Bo Wang">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Mustafa Üstüner">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Mustafa Üstüner">
   
 
   <link rel="manifest" href="/site.webmanifest">
@@ -104,10 +104,10 @@
 
   <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Bo Wang">
+  <meta property="og:site_name" content="Mustafa Üstüner">
   <meta property="og:url" content="/publication/single-cell/">
-  <meta property="og:title" content="Visualization and analysis of single-cell RNA-seq data by kernel-based similarity learning | Bo Wang">
-  <meta property="og:description" content="We present single-cell interpretation via multikernel learning (SIMLR), an analytic framework and software which learns a similarity measure from single-cell RNA-  seq data in order to perform dimension reduction, clustering and visualization. On seven published data sets, we benchmark SIMLR against state-of-the-art methods. We show that SIMLR is scalable and greatly enhances clustering performance while improving the visualization and interpretability of single-cell sequencing data.">
+  <meta property="og:title" content="An assessment of training data for agricultural land cover classification: a case study of Bafra, Türkiye | Mustafa Üstüner">
+  <meta property="og:description" content="The training data plays a pivotal role in the accuracy of a machine learning (ML) model in remote sensing. In this case, the set size and purity of the training data have a large influence in classification accuracy. The purpose of this experimental research is to investigate the impact of the different training set size on supervised machine learning classifiers for the agricultural land cover classification in remote sensing. The training set size for each class was incrementally increased at the following intervals: 1%, 5%, 10%, 20%, 30%, 40%, and 50% in our experiment. The remaining 50% of the full ground truth data was used for evaluating the model’s accuracy. The test site is situated in Bafra Plain, Samsun, Turkey and the agricultural land cover classification was held using multispectral Sentinel-2 imagery with four ML models, namely Support Vector Machines (SVM), Random Forest (RF), Light Gradient Boosting Machines (LightGBM), and Kernel Extreme Learning Machines (KELM). The experimental results demonstrated that the highest classification accuracy was achieved by LightGBM (89.93%), and followed by RF (86.49%), KELM (78.38%) and SVM (72.49%). The classification accuracies of tree-based methods (RF and LightGBM) increased as the training set size grew, however, kernel-based methods (KELM and SVM) exhibited unstable results as the size of the training dataset varied. Furthermore, our findings highlight that each machine learning model demonstrates different sensitivity to variations in training set size with respect to agricultural land cover classification.">
   
   
     
@@ -123,7 +123,7 @@
 
   
 
-  <title>Visualization and analysis of single-cell RNA-seq data by kernel-based similarity learning | Bo Wang</title>
+  <title>An assessment of training data for agricultural land cover classification: a case study of Bafra, Türkiye | Mustafa Üstüner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -163,7 +163,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Bo Wang</a>
+      <a class="navbar-brand" href="/">Mustafa Üstüner</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -312,7 +312,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Visualization and analysis of single-cell RNA-seq data by kernel-based similarity learning</h1>
+  <h1 itemprop="name" style="text-align: justify;>An assessment of training data for agricultural land cover classification: a case study of Bafra, Türkiye</h1>
 
   
 
@@ -326,19 +326,10 @@
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Bo Wang</span>
-    </span>, 
+      <span itemprop="name">Mustafa Üstüner</span>
+    </span>,  
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Junjie Zhu</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Emma Pierson</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Daniele Ramazzotti</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Serafim Batzoglou</span>
+      <span itemprop="name">Fatih Fehmi Şimsek</span>
     </span>
     
   </div>
@@ -346,13 +337,13 @@
 
   <span class="article-date">
     
-    <meta content="2017-03-06 00:00:00 -0500 EST" itemprop="datePublished">
-    <time datetime="2017-03-06 00:00:00 -0500 EST" itemprop="dateModified">
-      Mar 6, 2017
+    <meta content="2025-01-06 00:00:00 -0500 EST" itemprop="datePublished">
+    <time datetime="2025-01-30 00:00:00 -0500 EST" itemprop="dateModified">
+      Jan, 2025
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Bo Wang">
+    <meta itemprop="name" content="Mustafa Üstüner">
   </span>
 
   
@@ -360,53 +351,7 @@
   
   
 
-  
 
-  
-  
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Visualization%20and%20analysis%20of%20single-cell%20RNA-seq%20data%20by%20kernel-based%20similarity%20learning&amp;url=%2fpublication%2fsingle-cell%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fsingle-cell%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fsingle-cell%2f&amp;title=Visualization%20and%20analysis%20of%20single-cell%20RNA-seq%20data%20by%20kernel-based%20similarity%20learning"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fsingle-cell%2f&amp;title=Visualization%20and%20analysis%20of%20single-cell%20RNA-seq%20data%20by%20kernel-based%20similarity%20learning"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Visualization%20and%20analysis%20of%20single-cell%20RNA-seq%20data%20by%20kernel-based%20similarity%20learning&amp;body=%2fpublication%2fsingle-cell%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
-
-  
-
-</div>
 
     
 
@@ -481,7 +426,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We present single-cell interpretation via multikernel learning (SIMLR), an analytic framework and software which learns a similarity measure from single-cell RNA-  seq data in order to perform dimension reduction, clustering and visualization. On seven published data sets, we benchmark SIMLR against state-of-the-art methods. We show that SIMLR is scalable and greatly enhances clustering performance while improving the visualization and interpretability of single-cell sequencing data.</p>
+    <p class="pub-abstract" itemprop="text" style="text-align: justify;">The training data plays a pivotal role in the accuracy of a machine learning (ML) model in remote sensing. In this case, the set size and purity of the training data have a large influence in classification accuracy. The purpose of this experimental research is to investigate the impact of the different training set size on supervised machine learning classifiers for the agricultural land cover classification in remote sensing. The training set size for each class was incrementally increased at the following intervals: 1%, 5%, 10%, 20%, 30%, 40%, and 50% in our experiment. The remaining 50% of the full ground truth data was used for evaluating the model’s accuracy. The test site is situated in Bafra Plain, Samsun, Turkey and the agricultural land cover classification was held using multispectral Sentinel-2 imagery with four ML models, namely Support Vector Machines (SVM), Random Forest (RF), Light Gradient Boosting Machines (LightGBM), and Kernel Extreme Learning Machines (KELM). The experimental results demonstrated that the highest classification accuracy was achieved by LightGBM (89.93%), and followed by RF (86.49%), KELM (78.38%) and SVM (72.49%). The classification accuracies of tree-based methods (RF and LightGBM) increased as the training set size grew, however, kernel-based methods (KELM and SVM) exhibited unstable results as the size of the training dataset varied. Furthermore, our findings highlight that each machine learning model demonstrates different sensitivity to variations in training set size with respect to agricultural land cover classification.</p>
     
 
     
@@ -510,7 +455,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Nature Methods</em>.</div>
+          <div class="col-12 col-md-9">In <em>Earth Science Informatics</em>.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -524,7 +469,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            March, 2017
+            January, 2025
           </div>
         </div>
       </div>
@@ -555,78 +500,10 @@
   <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
   
   <div class="media-body">
-    <h5 class="card-title" itemprop="name"><a href="/">Bo Wang</a></h5>
-    <h6 class="card-subtitle">Scientist of AI for Health and Genomics</h6>
+    <h5 class="card-title" itemprop="name"><a href="/">Mustafa Üstüner</a></h5>
+    <h6 class="card-subtitle">Faculty Member</h6>
     
-    <ul class="network-icon" aria-hidden="true">
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="/bowang@vectorinstitute.ai" >
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://twitter.com/bowang87" target="_blank" rel="noopener">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=37FDILIAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://github.com/bowang87" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-    </ul>
+   
   </div>
 </div>
 
