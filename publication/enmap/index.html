@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="The training data plays a pivotal role in the accuracy of a machine learning (ML) model in remote sensing. In this case, the set size and purity of the training data have a large influence in classification accuracy. The purpose of this experimental research is to investigate the impact of the different training set size on supervised machine learning classifiers for the agricultural land cover classification in remote sensing. The training set size for each class was incrementally increased at the following intervals: 1%, 5%, 10%, 20%, 30%, 40%, and 50% in our experiment. The remaining 50% of the full ground truth data was used for evaluating the model’s accuracy. The test site is situated in Bafra Plain, Samsun, Turkey and the agricultural land cover classification was held using multispectral Sentinel-2 imagery with four ML models, namely Support Vector Machines (SVM), Random Forest (RF), Light Gradient Boosting Machines (LightGBM), and Kernel Extreme Learning Machines (KELM). The experimental results demonstrated that the highest classification accuracy was achieved by LightGBM (89.93%), and followed by RF (86.49%), KELM (78.38%) and SVM (72.49%). The classification accuracies of tree-based methods (RF and LightGBM) increased as the training set size grew, however, kernel-based methods (KELM and SVM) exhibited unstable results as the size of the training dataset varied. Furthermore, our findings highlight that each machine learning model demonstrates different sensitivity to variations in training set size with respect to agricultural land cover classification.">
+  <meta name="description" content="This study addresses the applicability of dimensionality reduction (DR) techniques with EnMAP (Environmental Mapping and Analysis Program) hyperspectral imagery for lithological classification in a semiarid area. In this work, various DR techniques such as principal component analysis (PCA), independent component analysis (ICA), minimum noise fraction (MNF), and manifold nonlinear models were applied to EnMAP data. The classification of the ENMAP dataset was then performed using Support Vector Machines (SVM), k-nearest neighbors (KNN), and random forests (RF). The DR methods were evaluated with a reduction rate of more than 50 %. The study demonstrated that most of the used DR techniques show sensitivity between classification accuracy and the number of components until 30 components. Techniques such as PCA transform variants, ICA and Singular value decomposition (SVD) provide high accuracy with a smaller number of components, while others such as locally linear embedding (LLE), local tangent space alignment (LTSA), and Autoencoder (AE) require a larger number of components to achieve a similar level of accuracy but still provide considerable DR results. On the other hand, the Uniform Manifold Approximation and Projection (UMAP) and Isometric mapping (ISOMAP) are not very accurate and, therefore reveal their weakness in preserving relevant information during DR. The SVM model showed higher performance and lower sensitivity to reduction rate changes than KNN and RF. The SVM achieves the ultimate performance in classifying the lithologic units in the study area over both the original bands and the reduced dimensions obtained with the PCA technique (Overall Accuracy (OA) = 96.09 %, Precision (Pr) = 96.17 % and Kappa Accuracy (KA) = 95.55 %). These results emphasize the need to choose an appropriate DR technique to achieve a balance between DR and information preservation. Indeed, the optimal number of components depends on the technique used and the dataset, emphasizing that the proper selection of a technique, together with a possible tuning of hyperparameters, is very important. This work makes a valuable contribution to research in lithological mapping studies and shows that effective dimensionality reduction is a key to improving model accuracy for processing EnMAP data.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/single-cell/">
+  <link rel="alternate" hreflang="en-us" href="/publication/enmap/">
 
   
 
@@ -100,14 +100,14 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/single-cell/">
+  <link rel="canonical" href="/publication/enmap/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Mustafa Üstüner">
-  <meta property="og:url" content="/publication/single-cell/">
-  <meta property="og:title" content="An assessment of training data for agricultural land cover classification: a case study of Bafra, Türkiye | Mustafa Üstüner">
-  <meta property="og:description" content="The training data plays a pivotal role in the accuracy of a machine learning (ML) model in remote sensing. In this case, the set size and purity of the training data have a large influence in classification accuracy. The purpose of this experimental research is to investigate the impact of the different training set size on supervised machine learning classifiers for the agricultural land cover classification in remote sensing. The training set size for each class was incrementally increased at the following intervals: 1%, 5%, 10%, 20%, 30%, 40%, and 50% in our experiment. The remaining 50% of the full ground truth data was used for evaluating the model’s accuracy. The test site is situated in Bafra Plain, Samsun, Turkey and the agricultural land cover classification was held using multispectral Sentinel-2 imagery with four ML models, namely Support Vector Machines (SVM), Random Forest (RF), Light Gradient Boosting Machines (LightGBM), and Kernel Extreme Learning Machines (KELM). The experimental results demonstrated that the highest classification accuracy was achieved by LightGBM (89.93%), and followed by RF (86.49%), KELM (78.38%) and SVM (72.49%). The classification accuracies of tree-based methods (RF and LightGBM) increased as the training set size grew, however, kernel-based methods (KELM and SVM) exhibited unstable results as the size of the training dataset varied. Furthermore, our findings highlight that each machine learning model demonstrates different sensitivity to variations in training set size with respect to agricultural land cover classification.">
+  <meta property="og:url" content="/publication/enmap/">
+  <meta property="og:title" content="Balancing hyperspectral dimensionality reduction and information preservation for machine learning-based lithological classification using EnMAP hyperspectral imagery | Mustafa Üstüner">
+  <meta property="og:description" content="This study addresses the applicability of dimensionality reduction (DR) techniques with EnMAP (Environmental Mapping and Analysis Program) hyperspectral imagery for lithological classification in a semiarid area. In this work, various DR techniques such as principal component analysis (PCA), independent component analysis (ICA), minimum noise fraction (MNF), and manifold nonlinear models were applied to EnMAP data. The classification of the ENMAP dataset was then performed using Support Vector Machines (SVM), k-nearest neighbors (KNN), and random forests (RF). The DR methods were evaluated with a reduction rate of more than 50 %. The study demonstrated that most of the used DR techniques show sensitivity between classification accuracy and the number of components until 30 components. Techniques such as PCA transform variants, ICA and Singular value decomposition (SVD) provide high accuracy with a smaller number of components, while others such as locally linear embedding (LLE), local tangent space alignment (LTSA), and Autoencoder (AE) require a larger number of components to achieve a similar level of accuracy but still provide considerable DR results. On the other hand, the Uniform Manifold Approximation and Projection (UMAP) and Isometric mapping (ISOMAP) are not very accurate and, therefore reveal their weakness in preserving relevant information during DR. The SVM model showed higher performance and lower sensitivity to reduction rate changes than KNN and RF. The SVM achieves the ultimate performance in classifying the lithologic units in the study area over both the original bands and the reduced dimensions obtained with the PCA technique (Overall Accuracy (OA) = 96.09 %, Precision (Pr) = 96.17 % and Kappa Accuracy (KA) = 95.55 %). These results emphasize the need to choose an appropriate DR technique to achieve a balance between DR and information preservation. Indeed, the optimal number of components depends on the technique used and the dataset, emphasizing that the proper selection of a technique, together with a possible tuning of hyperparameters, is very important. This work makes a valuable contribution to research in lithological mapping studies and shows that effective dimensionality reduction is a key to improving model accuracy for processing EnMAP data.">
   
   
     
@@ -121,7 +121,7 @@
 
   
 
-  <title>An assessment of training data for agricultural land cover classification: a case study of Bafra, Türkiye | Mustafa Üstüner</title>
+  <title>Balancing hyperspectral dimensionality reduction and information preservation for machine learning-based lithological classification using EnMAP hyperspectral imagery | Mustafa Üstüner</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -310,7 +310,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name" style="text-align: justify;">An assessment of training data for agricultural land cover classification: a case study of Bafra, Türkiye</h1>
+  <h1 itemprop="name" style="text-align: justify;">Balancing hyperspectral dimensionality reduction and information preservation for machine learning-based lithological classification using EnMAP hyperspectral imagery</h1>
 
   
 
@@ -324,10 +324,22 @@
   
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Soufiane Hajaj</span>
+    </span>,  
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Abderrazak El Harti</span>
+    </span>,  
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Amin Beiranvand Pour</span>
+    </span>,  
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Younes Khandouch</span>
+    </span>,  
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Mustafa Üstüner</span>
     </span>,  
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Fatih Fehmi Şimsek</span>
+      <span itemprop="name">Morteza Maali Amiri</span>
     </span>
     
   </div>
@@ -335,9 +347,9 @@
 
   <span class="article-date">
     
-    <meta content="2025-01-06 00:00:00 -0500 EST" itemprop="datePublished">
-    <time datetime="2025-01-30 00:00:00 -0500 EST" itemprop="dateModified">
-      Jan, 2025
+    <meta content="2025-04-06 00:00:00 -0500 EST" itemprop="datePublished">
+    <time datetime="2025-04-10 00:00:00 -0500 EST" itemprop="dateModified">
+      April, 2025
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -386,7 +398,7 @@
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1007/s12145-024-01555-5" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1016/j.rsase.2025.101618" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -420,7 +432,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text" style="text-align: justify;">The training data plays a pivotal role in the accuracy of a machine learning (ML) model in remote sensing. In this case, the set size and purity of the training data have a large influence in classification accuracy. The purpose of this experimental research is to investigate the impact of the different training set size on supervised machine learning classifiers for the agricultural land cover classification in remote sensing. The training set size for each class was incrementally increased at the following intervals: 1%, 5%, 10%, 20%, 30%, 40%, and 50% in our experiment. The remaining 50% of the full ground truth data was used for evaluating the model’s accuracy. The test site is situated in Bafra Plain, Samsun, Turkey and the agricultural land cover classification was held using multispectral Sentinel-2 imagery with four ML models, namely Support Vector Machines (SVM), Random Forest (RF), Light Gradient Boosting Machines (LightGBM), and Kernel Extreme Learning Machines (KELM). The experimental results demonstrated that the highest classification accuracy was achieved by LightGBM (89.93%), and followed by RF (86.49%), KELM (78.38%) and SVM (72.49%). The classification accuracies of tree-based methods (RF and LightGBM) increased as the training set size grew, however, kernel-based methods (KELM and SVM) exhibited unstable results as the size of the training dataset varied. Furthermore, our findings highlight that each machine learning model demonstrates different sensitivity to variations in training set size with respect to agricultural land cover classification.</p>
+    <p class="pub-abstract" itemprop="text" style="text-align: justify;">This study addresses the applicability of dimensionality reduction (DR) techniques with EnMAP (Environmental Mapping and Analysis Program) hyperspectral imagery for lithological classification in a semiarid area. In this work, various DR techniques such as principal component analysis (PCA), independent component analysis (ICA), minimum noise fraction (MNF), and manifold nonlinear models were applied to EnMAP data. The classification of the ENMAP dataset was then performed using Support Vector Machines (SVM), k-nearest neighbors (KNN), and random forests (RF). The DR methods were evaluated with a reduction rate of more than 50 %. The study demonstrated that most of the used DR techniques show sensitivity between classification accuracy and the number of components until 30 components. Techniques such as PCA transform variants, ICA and Singular value decomposition (SVD) provide high accuracy with a smaller number of components, while others such as locally linear embedding (LLE), local tangent space alignment (LTSA), and Autoencoder (AE) require a larger number of components to achieve a similar level of accuracy but still provide considerable DR results. On the other hand, the Uniform Manifold Approximation and Projection (UMAP) and Isometric mapping (ISOMAP) are not very accurate and, therefore reveal their weakness in preserving relevant information during DR. The SVM model showed higher performance and lower sensitivity to reduction rate changes than KNN and RF. The SVM achieves the ultimate performance in classifying the lithologic units in the study area over both the original bands and the reduced dimensions obtained with the PCA technique (Overall Accuracy (OA) = 96.09 %, Precision (Pr) = 96.17 % and Kappa Accuracy (KA) = 95.55 %). These results emphasize the need to choose an appropriate DR technique to achieve a balance between DR and information preservation. Indeed, the optimal number of components depends on the technique used and the dataset, emphasizing that the proper selection of a technique, together with a possible tuning of hyperparameters, is very important. This work makes a valuable contribution to research in lithological mapping studies and shows that effective dimensionality reduction is a key to improving model accuracy for processing EnMAP data.</p>
     
 
     
@@ -449,7 +461,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Earth Science Informatics</em>.</div>
+          <div class="col-12 col-md-9">In <em>Remote Sensing Applications: Society and Environment</em>.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -463,7 +475,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            January, 2025
+            April, 2025
           </div>
         </div>
       </div>
